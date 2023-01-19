@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App {
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .Nav .navbar {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #fff;
+    background: #070707;
+  }
+  
+  .Nav .navbar .nav-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .Nav .navbar .nav-links>li>a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .HeaderTitle{
+    width:80%;
+  }
+  
+  .Card_layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .col{
+    padding-bottom: 5%;
+  }
+
+  .ContainerHead{
+    background-color: rgb(231, 221, 221);
+    width: 90%;
+margin-left: 100px;
+padding-top: 100px;
+margin-top: 100px;
+  }
+.container h1{
+  text-align: left;
+}
+
+
+  .FormGrid{
+    width: 50%;
+    justify-content: center;
+display: flex;
+  }
+  .FormGridChild{
+    width: 80%;
+  }
+  .ImageGrid{
+    width: 450px;
+  }
+
+  .input-group-text{
+    width: 110px;
+  }
+#dob{
+  width: 249px;
+}
+
+.imageProfile{
+  width: 295;
+  height: 230px;
+}
+
+.Validation{
+  width:335px;
+   display:inline-flex;
+   float:left
+}
+.ValidationBtn{
+  width:335px;
+   display:inline-flex;
+   float:center
+}
